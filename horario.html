@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Husos Horarios</title>
+</head>
+<body>
+	<div>
+		<h1>Horas</h1>
+	</div>
+
+	<div>
+		<input type="time" id="horaLocal">Ingresa la hora de tu ciudad<br><br>
+		<button class="boton" onclick="horaBritanica()">Hora en Gran Bretaña</button>
+		<p id="resultadoUK"></p><br><br>
+	</div>
+
+	<div>
+		<button class="boton" onclick="horaNewYork()">Hora en New York</button>
+		<p id="resultadoNY"></p><br><br>
+	</div>
+
+	<div>
+		<button class="boton" onclick="horaSeul()">Hora en Seul</button>
+		<p id="resultadoSL"></p><br><br>
+	</div>
+
+    <div>
+		<button class="boton" onclick="horaRoma()">Hora en Roma</button>
+		<p id="resultadoR"></p><br><br>
+	</div>
+
+	<script src="calculo.js"></script>
+
+</body>
+</html>
